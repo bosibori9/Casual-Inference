@@ -64,13 +64,12 @@ All figures and tables are saved in the Output folder for reproducibility.
 - Reproducible workflow with R Markdown
 
 ## How to Reproduce
-- Clone the repository:
-- git clone <your-repo-url>
-Open Rmd/causal_analysis.Rmd in RStudio
+1. Clone the repository:
 
-Install required packages:
+2. Open Rmd/causal_analysis.Rmd in RStudio
+3. Install required packages:
 install.packages(c("tidyverse", "survival", "mice", "gtsummary", "MatchIt", "WeightIt", "cobalt", "dagitty"))
-Knit the R Markdown file to generate tables and figures in Output/
+4. Knit the R Markdown file to generate tables and figures in Output/
 
 ## References
 Austin PC. An Introduction to Propensity Score Methods for Reducing Confounding in Observational Studies. 2011
